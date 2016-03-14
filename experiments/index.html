@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> 
+</style>
+<body>
+
+<!-- load the d3.js library -->    
+<script src="core-js/d3/d3.min.js"></script>
+<script src="core-js/p5/p5.min.js"></script>
+
+<script>
+var mover;
+
+
+var datosNike;
+var waypoints;
+function preload() {
+  var url = 'data/NikePlus-2015-05-15-5677000000002144711100005909339036064031.json';
+  datosNike = loadJSON(url);    
+}
+
+function setup() {
+    createCanvas(window.innerWidth, window.innerHeight);
+    waypoints = datosNike.gpsmetrics[0].waypoints;
+    console.log(waypoints.length);
+    for (var i = 0; i < 300; i++) {
+        var l = createVector(width / 2, height / 2);
+        var s = random(1, 4);
+        var f = random(0.1, 0.5);
+        movers[i] = new Mover(l, s, f);
+    }
+    for (var i = 0; i < movers.length; i++) {
+        var m = movers[i];
+        m.run();
+    }
+}
+
+function draw() {
+    background(0);
+    for(var i=0; i<waypoints.length; i++){
+        var x = map(waypoints[i].latitude, -0.192, -0.175, 0, width);
+        var y = map(waypoints[i].longitude, -78.47, -78.5, 0, height);
+
+        noStroke();
+        fill(255);
+        ellipse(x, y, 3, 3);
+    }
+  
+}
+
+/* MOVER CLASS */
+function Mover(l, ms, mf) {
+    this.loc = l.copy();
+    this.lastLoc = l.copy();
+    this.velocity = createVector(0, 0);
+    this.acceleration = createVector(0, 0);
+    this.r = 3;
+    this.maxforce = mf;
+    this.maxspeed = ms;
+    this.c;
+
+    this.run = function () {
+        this.update();
+        this.borders();
+        this.show();
+    };
+
+    this.follow = function (flow) {
+        var desired = flow.lookup(this.loc);
+        desired.mult(this.maxspeed);
+        var steer = p5.Vector.sub(desired, this.velocity);
+        steer.limit(this.maxforce);
+        this.applyForce(steer);
+    };
+
+    this.applyForce = function (force) {
+        this.acceleration.add(force);
+    };
+
+    this.update = function () {
+        this.velocity.add(this.acceleration);
+        this.velocity.limit(this.maxspeed);
+        this.loc.add(this.velocity);
+        this.acceleration.mult(0);
+    };
+
+    this.borders = function () {
+        if (this.loc.x < 0) this.loc.x = width;
+        if (this.loc.y < 0) this.loc.y = height;
+        if (this.loc.x > width) this.loc.x = 0;
+        if (this.loc.y > height) this.loc.y = 0;
+    };
+
+    this.show = function () {
+        smooth();
+        stroke(this.c);
+        strokeWeight(2);
+        push();
+        if (this.loc.x > 0 && this.loc.x < width && this.loc.y > 0 && this.loc.y < height) {
+            line(this.loc.x, this.loc.y, this.lastLoc.x, this.lastLoc.y);
+        }
+        this.lastLoc.x = this.loc.x;
+        this.lastLoc.y = this.loc.y;
+        pop();
+    };
+}
+
+</script>
+</body>
