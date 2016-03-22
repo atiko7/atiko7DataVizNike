@@ -116,7 +116,7 @@ path {
             //
             uniforms = {
                 amplitude: { type: "f", value: 5.0 },
-                opacity:   { type: "f", value: 0.3 },
+                opacity:   { type: "f", value: 0 },
                 color:     { type: "c", value: new THREE.Color( 0x54CCFF ) }
             };
             uniforms2 = {
@@ -129,6 +129,7 @@ path {
                 vertexShader:   document.getElementById( 'vertexshader' ).textContent,
                 fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
                 blending:       THREE.AdditiveBlending,
+                linewidth:      0.5,
                 depthTest:      false,
                 transparent:    true
             });
@@ -137,16 +138,15 @@ path {
                 vertexShader:   document.getElementById( 'vertexshader' ).textContent,
                 fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
                 blending:       THREE.AdditiveBlending,
-                linewidth:      3,
+                linewidth:      10,
                 depthTest:      false,
                 transparent:    true
             });
              //cilindro//
             geoCil= new THREE.CylinderGeometry(8,8,2,24);
-            var material= new THREE.MeshBasicMaterial({color:0x00ccff});
+            var material= new THREE.MeshBasicMaterial({color:0xffffff, transparent: true, opacity: 0.9});
             cilindro= new THREE.Mesh(geoCil,material);
             scene.add(cilindro);
-            cilindro.rotation.x=PI/6;
              //
             lastX = map(waypoints[0].latitude, minLat, maxLat, 0 + marginWidth, width - marginWidth);
             lastY = map(waypoints[0].longitude, minLon, maxLon, 0 + marginHeight, height - marginHeight);
@@ -176,8 +176,6 @@ path {
                 color.toArray( customColor.array, i * customColor.itemSize );
             }
             object = new THREE.Line( buffergeometry, shaderMaterial );
-            object.rotation.x = PI/6;
-            
             scene.add( object );
             //////////////////////    GEOMETRY 2 /////////////////////////////////////////////
             var geometry2= new THREE.Geometry();
@@ -185,20 +183,17 @@ path {
                 var x = map(waypoints[i].latitude, minLat, maxLat, 0 + marginWidth, width - marginWidth);
                 var y = map(waypoints[i].longitude, minLon, maxLon, 0 + marginHeight, height - marginHeight);
                 geometry2.vertices.push(new THREE.Vector3( x, i*13/i, y));
-                
-                
             }
             
             geometry2.center();
             //geoCil.center();
-            var vertices3= geoCil.vertices
+            //var vertices3= geoCil.vertices
             var vertices2 = geometry2.vertices;
             var buffergeometry2 = new THREE.BufferGeometry();
             var position2 = new THREE.Float32Attribute( vertices2.length * 3, 3 ).copyVector3sArray( vertices2 );
             buffergeometry2.addAttribute( 'position', position2 );
             material = new THREE.LineBasicMaterial( { color: 0xff00ff, linewidth: 1 } );
             object2 = new THREE.Line(buffergeometry2, material);
-            object2.rotation.x = PI/6;
             //scene.add( object2 );
             ////////////////////////    GEOMETRY 3  ///////////////////////////////////////////
             var buffergeometry3 = new THREE.BufferGeometry();
@@ -210,11 +205,10 @@ path {
             buffergeometry3.addAttribute( 'customColor', customColor );
             var color = new THREE.Color( 0x00ff00 );
             for( var i = 0, l = customColor.count; i < l; i ++ ) {
-                color.setHSL(0.2, 0.5, i/l+0.4);
+                color.setHSL(0.3, 1.0, 0.4);
                 color.toArray( customColor.array, i * customColor.itemSize );
             }
             runner = new THREE.Line( buffergeometry3, shaderMaterial2);
-            runner.rotation.x = PI/6;
             scene.add( runner );
            
             ///////////////////////////////////////////////////////////////////
@@ -228,26 +222,26 @@ path {
         }
         function updateRunner(){
             var time = Date.now() * 0.001;
-            runner.rotation.y = 0.09 * time;
-           //cilindro.rotation.y= 0.09*time;
+            //runner.rotation.y = 0.09 * time;
             var attributes1 = object2.geometry.attributes;
             var array1 = attributes1.position.array;
             var attributes2 = runner.geometry.attributes;
-            
             var array2 = attributes2.position.array;
+
 /////////////////el array[0] es x, [1] es y [2] es z
-            cilindro.position.x= array2[0];
-            cilindro.position.y=array2[1];
-            cilindro.position.z=array2[2];
+            cilindro.position.x= array1[control + segNum*3];
+            cilindro.position.y=array1[control + 1 + segNum*3];
+            cilindro.position.z = array1[control + 2 + segNum*3];
+            ////////////////////////////////
             for( var i = 0; i < array2.length; i+=3){
                 array2[i] = array1[i + control];
                 array2[i + 1] = array1[i + control + 1];
                 array2[i + 2] = array1[i + control + 2];
             }
             control = control+3;
-            if(control > array1.length)control = 0;
+            if(control > array1.length-segNum*3)control = 0;
             uniforms2.amplitude.value = 1;
-            uniforms2.color.value.offsetHSL( 0.005, 0, 0 );
+            //uniforms2.color.value.offsetHSL( 0.005, 0, 0 );
             var array3 = attributes2.displacement.array;
               
             for ( var i = 0; i < array3.length; i += 3 ) {
@@ -257,15 +251,14 @@ path {
             }
             attributes2.displacement.needsUpdate = true;
             attributes2.position.needsUpdate = true;
-            cilindro.position.needsUpdate= true;
+            
            
         
         }
         function updateObject(){
             var time = Date.now() * 0.001;
-            object.rotation.y = 0.09 * time;
-            object2.rotation.y = 0.09 * time;
-            //cilindro.rotation.y= 0.09*time;
+            //object.rotation.y = 0.09 * time;
+            //object2.rotation.y = 0.09 * time;
             uniforms.amplitude.value = 1;
             uniforms.color.value.offsetHSL( 0.00, 0, 0 );
             var attributes = object.geometry.attributes;
