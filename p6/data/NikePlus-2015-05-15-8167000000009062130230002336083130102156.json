@@ -1,0 +1,2203 @@
+{
+  "activityId": "8167000000009062130230002336083130102156",
+  "activityTimeZone": "America/Guayaquil",
+  "activityType": "RUN",
+  "deviceType": "IPHONE",
+  "gpsmetrics": [
+    {
+      "elevationGain": 50.76367,
+      "elevationLoss": 59.79297,
+      "elevationMax": 2788.6912,
+      "elevationMin": 2760.246,
+      "intervalMetric": 10,
+      "intervalUnit": "SEC",
+      "links": [
+        {
+          "href": "https://api.nike.com/me/sport/activities/8167000000009062130230002336083130102156/gps",
+          "rel": "self"
+        },
+        {
+          "href": "https://api.nike.com/me/sport/activities/8167000000009062130230002336083130102156",
+          "rel": "activity"
+        }
+      ],
+      "waypoints": [
+        {
+          "elevation": 2781.2935,
+          "latitude": -0.18942301,
+          "longitude": -78.4842
+        },
+        {
+          "elevation": 2781.2935,
+          "latitude": -0.18942301,
+          "longitude": -78.4842
+        },
+        {
+          "elevation": 2781.2935,
+          "latitude": -0.18942301,
+          "longitude": -78.4842
+        },
+        {
+          "elevation": 2781.2935,
+          "latitude": -0.18942301,
+          "longitude": -78.4842
+        },
+        {
+          "elevation": 2779.2842,
+          "latitude": -0.18937905,
+          "longitude": -78.4843
+        },
+        {
+          "elevation": 2777.5503,
+          "latitude": -0.18943022,
+          "longitude": -78.484375
+        },
+        {
+          "elevation": 2775.6558,
+          "latitude": -0.1895194,
+          "longitude": -78.48442
+        },
+        {
+          "elevation": 2774.7913,
+          "latitude": -0.1895194,
+          "longitude": -78.48442
+        },
+        {
+          "elevation": 2774.019,
+          "latitude": -0.18961231,
+          "longitude": -78.48449
+        },
+        {
+          "elevation": 2773.2908,
+          "latitude": -0.1896888,
+          "longitude": -78.48456
+        },
+        {
+          "elevation": 2772.963,
+          "latitude": -0.18975589,
+          "longitude": -78.48464
+        },
+        {
+          "elevation": 2772.6746,
+          "latitude": -0.18980245,
+          "longitude": -78.484726
+        },
+        {
+          "elevation": 2772.36,
+          "latitude": -0.18984747,
+          "longitude": -78.48481
+        },
+        {
+          "elevation": 2771.9456,
+          "latitude": -0.18991168,
+          "longitude": -78.484924
+        },
+        {
+          "elevation": 2771.6055,
+          "latitude": -0.1899512,
+          "longitude": -78.48503
+        },
+        {
+          "elevation": 2769.1128,
+          "latitude": -0.19001159,
+          "longitude": -78.48511
+        },
+        {
+          "elevation": 2766.921,
+          "latitude": -0.19011183,
+          "longitude": -78.48517
+        },
+        {
+          "elevation": 2765.7063,
+          "latitude": -0.19017704,
+          "longitude": -78.48523
+        },
+        {
+          "elevation": 2765.556,
+          "latitude": -0.19023743,
+          "longitude": -78.4853
+        },
+        {
+          "elevation": 2765.1477,
+          "latitude": -0.19029653,
+          "longitude": -78.4854
+        },
+        {
+          "elevation": 2764.7568,
+          "latitude": -0.19034229,
+          "longitude": -78.48549
+        },
+        {
+          "elevation": 2764.3762,
+          "latitude": -0.19035152,
+          "longitude": -78.485596
+        },
+        {
+          "elevation": 2762.5781,
+          "latitude": -0.19037716,
+          "longitude": -78.4857
+        },
+        {
+          "elevation": 2761.523,
+          "latitude": -0.19037071,
+          "longitude": -78.4858
+        },
+        {
+          "elevation": 2760.8474,
+          "latitude": -0.19033279,
+          "longitude": -78.48589
+        },
+        {
+          "elevation": 2760.246,
+          "latitude": -0.19027716,
+          "longitude": -78.485985
+        },
+        {
+          "elevation": 2761.8284,
+          "latitude": -0.19021803,
+          "longitude": -78.486084
+        },
+        {
+          "elevation": 2763.189,
+          "latitude": -0.19016904,
+          "longitude": -78.48617
+        },
+        {
+          "elevation": 2764.4426,
+          "latitude": -0.19013102,
+          "longitude": -78.48625
+        },
+        {
+          "elevation": 2765.8682,
+          "latitude": -0.1900387,
+          "longitude": -78.486305
+        },
+        {
+          "elevation": 2766.3464,
+          "latitude": -0.18993582,
+          "longitude": -78.486336
+        },
+        {
+          "elevation": 2766.8694,
+          "latitude": -0.18983246,
+          "longitude": -78.48638
+        },
+        {
+          "elevation": 2767.7766,
+          "latitude": -0.18975087,
+          "longitude": -78.486435
+        },
+        {
+          "elevation": 2768.586,
+          "latitude": -0.18966869,
+          "longitude": -78.486496
+        },
+        {
+          "elevation": 2769.2126,
+          "latitude": -0.18957677,
+          "longitude": -78.486534
+        },
+        {
+          "elevation": 2770.3796,
+          "latitude": -0.18947661,
+          "longitude": -78.486565
+        },
+        {
+          "elevation": 2772.2612,
+          "latitude": -0.18937154,
+          "longitude": -78.4866
+        },
+        {
+          "elevation": 2774.0142,
+          "latitude": -0.1892687,
+          "longitude": -78.48662
+        },
+        {
+          "elevation": 2774.658,
+          "latitude": -0.18916804,
+          "longitude": -78.486626
+        },
+        {
+          "elevation": 2773.2058,
+          "latitude": -0.18907525,
+          "longitude": -78.48669
+        },
+        {
+          "elevation": 2771.8389,
+          "latitude": -0.18900593,
+          "longitude": -78.48676
+        },
+        {
+          "elevation": 2770.402,
+          "latitude": -0.18890153,
+          "longitude": -78.48679
+        },
+        {
+          "elevation": 2768.833,
+          "latitude": -0.18878502,
+          "longitude": -78.486824
+        },
+        {
+          "elevation": 2768.4744,
+          "latitude": -0.18866892,
+          "longitude": -78.48687
+        },
+        {
+          "elevation": 2768.7876,
+          "latitude": -0.18858787,
+          "longitude": -78.48694
+        },
+        {
+          "elevation": 2769.0767,
+          "latitude": -0.18851252,
+          "longitude": -78.487
+        },
+        {
+          "elevation": 2769.3794,
+          "latitude": -0.18843901,
+          "longitude": -78.487076
+        },
+        {
+          "elevation": 2769.6538,
+          "latitude": -0.18834677,
+          "longitude": -78.48707
+        },
+        {
+          "elevation": 2769.9614,
+          "latitude": -0.18824342,
+          "longitude": -78.48707
+        },
+        {
+          "elevation": 2770.2349,
+          "latitude": -0.18816446,
+          "longitude": -78.487114
+        },
+        {
+          "elevation": 2770.5176,
+          "latitude": -0.18808413,
+          "longitude": -78.48717
+        },
+        {
+          "elevation": 2770.8518,
+          "latitude": -0.18797608,
+          "longitude": -78.4872
+        },
+        {
+          "elevation": 2771.1633,
+          "latitude": -0.18787424,
+          "longitude": -78.48722
+        },
+        {
+          "elevation": 2771.4607,
+          "latitude": -0.1877768,
+          "longitude": -78.48724
+        },
+        {
+          "elevation": 2771.7986,
+          "latitude": -0.18766318,
+          "longitude": -78.48724
+        },
+        {
+          "elevation": 2772.0771,
+          "latitude": -0.18756972,
+          "longitude": -78.487236
+        },
+        {
+          "elevation": 2772.3784,
+          "latitude": -0.18746842,
+          "longitude": -78.487236
+        },
+        {
+          "elevation": 2772.6934,
+          "latitude": -0.18736307,
+          "longitude": -78.48725
+        },
+        {
+          "elevation": 2773.023,
+          "latitude": -0.18725227,
+          "longitude": -78.48725
+        },
+        {
+          "elevation": 2773.3704,
+          "latitude": -0.18713555,
+          "longitude": -78.48724
+        },
+        {
+          "elevation": 2773.6633,
+          "latitude": -0.18703793,
+          "longitude": -78.487236
+        },
+        {
+          "elevation": 2774.0728,
+          "latitude": -0.18690081,
+          "longitude": -78.48722
+        },
+        {
+          "elevation": 2773.1821,
+          "latitude": -0.18679583,
+          "longitude": -78.48721
+        },
+        {
+          "elevation": 2772.271,
+          "latitude": -0.18668875,
+          "longitude": -78.4872
+        },
+        {
+          "elevation": 2771.4927,
+          "latitude": -0.18659922,
+          "longitude": -78.48718
+        },
+        {
+          "elevation": 2770.6128,
+          "latitude": -0.18649709,
+          "longitude": -78.48716
+        },
+        {
+          "elevation": 2769.5884,
+          "latitude": -0.18637697,
+          "longitude": -78.487175
+        },
+        {
+          "elevation": 2768.69,
+          "latitude": -0.18627125,
+          "longitude": -78.48718
+        },
+        {
+          "elevation": 2767.8442,
+          "latitude": -0.18616304,
+          "longitude": -78.48715
+        },
+        {
+          "elevation": 2769.3962,
+          "latitude": -0.18607159,
+          "longitude": -78.4871
+        },
+        {
+          "elevation": 2770.7783,
+          "latitude": -0.18604447,
+          "longitude": -78.48701
+        },
+        {
+          "elevation": 2772.36,
+          "latitude": -0.18595172,
+          "longitude": -78.486946
+        },
+        {
+          "elevation": 2773.9902,
+          "latitude": -0.18584096,
+          "longitude": -78.48692
+        },
+        {
+          "elevation": 2775.3994,
+          "latitude": -0.18574364,
+          "longitude": -78.48693
+        },
+        {
+          "elevation": 2777.5002,
+          "latitude": -0.18564,
+          "longitude": -78.4869
+        },
+        {
+          "elevation": 2778.2585,
+          "latitude": -0.18555023,
+          "longitude": -78.48682
+        },
+        {
+          "elevation": 2778.418,
+          "latitude": -0.18546994,
+          "longitude": -78.48676
+        },
+        {
+          "elevation": 2778.5874,
+          "latitude": -0.18539026,
+          "longitude": -78.4867
+        },
+        {
+          "elevation": 2778.738,
+          "latitude": -0.18531717,
+          "longitude": -78.48665
+        },
+        {
+          "elevation": 2778.8962,
+          "latitude": -0.18523382,
+          "longitude": -78.4866
+        },
+        {
+          "elevation": 2779.998,
+          "latitude": -0.18512438,
+          "longitude": -78.48656
+        },
+        {
+          "elevation": 2780.4612,
+          "latitude": -0.18500759,
+          "longitude": -78.486534
+        },
+        {
+          "elevation": 2778.634,
+          "latitude": -0.18490721,
+          "longitude": -78.48655
+        },
+        {
+          "elevation": 2776.716,
+          "latitude": -0.18480968,
+          "longitude": -78.48659
+        },
+        {
+          "elevation": 2775.0383,
+          "latitude": -0.18474457,
+          "longitude": -78.48666
+        },
+        {
+          "elevation": 2772.8862,
+          "latitude": -0.18470438,
+          "longitude": -78.486755
+        },
+        {
+          "elevation": 2771.0479,
+          "latitude": -0.18463635,
+          "longitude": -78.486824
+        },
+        {
+          "elevation": 2770.5547,
+          "latitude": -0.18451737,
+          "longitude": -78.486824
+        },
+        {
+          "elevation": 2773.6,
+          "latitude": -0.1844076,
+          "longitude": -78.48679
+        },
+        {
+          "elevation": 2776.5254,
+          "latitude": -0.18429965,
+          "longitude": -78.48677
+        },
+        {
+          "elevation": 2780.3123,
+          "latitude": -0.18419853,
+          "longitude": -78.48678
+        },
+        {
+          "elevation": 2783.3643,
+          "latitude": -0.18411584,
+          "longitude": -78.48674
+        },
+        {
+          "elevation": 2785.389,
+          "latitude": -0.18402275,
+          "longitude": -78.48669
+        },
+        {
+          "elevation": 2786.318,
+          "latitude": -0.18393546,
+          "longitude": -78.48665
+        },
+        {
+          "elevation": 2786.8342,
+          "latitude": -0.18382788,
+          "longitude": -78.4866
+        },
+        {
+          "elevation": 2787.3518,
+          "latitude": -0.18373245,
+          "longitude": -78.486595
+        },
+        {
+          "elevation": 2787.732,
+          "latitude": -0.18361677,
+          "longitude": -78.48659
+        },
+        {
+          "elevation": 2788.0088,
+          "latitude": -0.1835087,
+          "longitude": -78.4866
+        },
+        {
+          "elevation": 2788.3645,
+          "latitude": -0.18340735,
+          "longitude": -78.48659
+        },
+        {
+          "elevation": 2788.6912,
+          "latitude": -0.18333419,
+          "longitude": -78.486534
+        },
+        {
+          "elevation": 2786.6343,
+          "latitude": -0.18328503,
+          "longitude": -78.48645
+        },
+        {
+          "elevation": 2784.6538,
+          "latitude": -0.18328473,
+          "longitude": -78.48637
+        },
+        {
+          "elevation": 2782.344,
+          "latitude": -0.18329068,
+          "longitude": -78.48626
+        },
+        {
+          "elevation": 2779.8071,
+          "latitude": -0.18328573,
+          "longitude": -78.48616
+        },
+        {
+          "elevation": 2778.1326,
+          "latitude": -0.18328242,
+          "longitude": -78.48603
+        },
+        {
+          "elevation": 2776.5518,
+          "latitude": -0.18327925,
+          "longitude": -78.48593
+        },
+        {
+          "elevation": 2774.7754,
+          "latitude": -0.18329893,
+          "longitude": -78.48582
+        },
+        {
+          "elevation": 2773.358,
+          "latitude": -0.18330774,
+          "longitude": -78.4857
+        },
+        {
+          "elevation": 2772.6597,
+          "latitude": -0.18329495,
+          "longitude": -78.4856
+        },
+        {
+          "elevation": 2772.5388,
+          "latitude": -0.18320464,
+          "longitude": -78.48561
+        },
+        {
+          "elevation": 2772.5083,
+          "latitude": -0.18320464,
+          "longitude": -78.48561
+        },
+        {
+          "elevation": 2772.2642,
+          "latitude": -0.18310925,
+          "longitude": -78.4856
+        }
+      ]
+    }
+  ],
+  "isGpsActivity": true,
+  "links": [
+    {
+      "href": "https://api.nike.com/me/sport/activities/8167000000009062130230002336083130102156",
+      "rel": "self"
+    }
+  ],
+  "metricSummary": {
+    "calories": 91,
+    "distance": 1.2813222408294678,
+    "duration": "0:08:09.693",
+    "fuel": 330,
+    "steps": 0
+  },
+  "metrics": [
+    {
+      "intervalMetric": 1,
+      "intervalUnit": "MIN",
+      "metricType": "FUEL",
+      "values": [
+        "13",
+        "46",
+        "42",
+        "44",
+        "42",
+        "42",
+        "45",
+        "42",
+        "14"
+      ]
+    },
+    {
+      "intervalMetric": 10,
+      "intervalUnit": "SEC",
+      "metricType": "SPEED",
+      "values": [
+        "0.0",
+        "0.0",
+        "5.478776181003883",
+        "9.207576968568187",
+        "11.25404425963444",
+        "10.94143191908904",
+        "11.04563603260417",
+        "10.97616662359408",
+        "10.28147253349319",
+        "10.2120031244831",
+        "9.899390783937701",
+        "10.2120031244831",
+        "9.51730903438221",
+        "9.621513147897344",
+        "9.621513147897344",
+        "9.308900807351943",
+        "9.760451965917524",
+        "9.378370216362033",
+        "9.864656079432654",
+        "10.14253371547301",
+        "10.38567664700832",
+        "10.55935016953355",
+        "10.55935016953355",
+        "10.35094194250328",
+        "10.00359489745283",
+        "9.413104920867077",
+        "9.760451965917524",
+        "9.760451965917524",
+        "10.17726841997806",
+        "10.17726841997806",
+        "9.864656079432654",
+        "9.829921374927611",
+        "9.725717261412479",
+        "10.00359489745283",
+        "10.14253371547301",
+        "10.2120031244831",
+        "10.55935016953355",
+        "10.55935016953355",
+        "10.5246154650285",
+        "9.829921374927611",
+        "9.829921374927611",
+        "9.934125488442746",
+        "9.343635511856986",
+        "9.308900807351943",
+        "9.552043738887255",
+        "9.829921374927611",
+        "9.725717261412479",
+        "8.510002603735918",
+        "8.336329081210694",
+        "0.0"
+      ]
+    },
+    {
+      "intervalMetric": 10,
+      "intervalUnit": "SEC",
+      "metricType": "DISTANCE",
+      "values": [
+        "0.0",
+        "0.0",
+        "0.004621989840490126",
+        "0.02579855189908868",
+        "0.0530130302009193",
+        "0.0835261990366231",
+        "0.1140736257785574",
+        "0.1447929744742421",
+        "0.1748680098982019",
+        "0.2037434589315214",
+        "0.2316301929574872",
+        "0.2593886778206589",
+        "0.2869214669984236",
+        "0.3135497996384722",
+        "0.3402833287849609",
+        "0.3666983534390822",
+        "0.3926542182342365",
+        "0.4194651163774935",
+        "0.4458525422323265",
+        "0.4742977741550871",
+        "0.5027376050288527",
+        "0.5317309424507745",
+        "0.5610069606034653",
+        "0.5894629735158503",
+        "0.6179527000974471",
+        "0.644855055571673",
+        "0.6714909252129216",
+        "0.6986303153467338",
+        "0.7261392041680511",
+        "0.7545480554292917",
+        "0.7827465688904286",
+        "0.8101877755949352",
+        "0.8371521345283833",
+        "0.8642261881285506",
+        "0.8922810179490019",
+        "0.9205789752727425",
+        "0.9497260499225514",
+        "0.9792987913969852",
+        "1.008342929358132",
+        "1.036632145223666",
+        "1.063960245159481",
+        "1.091227804698165",
+        "1.118392637876165",
+        "1.14460507347295",
+        "1.171173966679542",
+        "1.197771217061427",
+        "1.225110093810511",
+        "1.250909225564475",
+        "1.275474470552531",
+        "1.281322312577297"
+      ]
+    },
+    {
+      "intervalMetric": 10,
+      "intervalUnit": "SEC",
+      "metricType": "GPSSIGNALSTRENGTH",
+      "values": [
+        "0.0",
+        "0.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "0.95",
+        "1.0",
+        "0.7749999999999999",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "0.95",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "intervalMetric": 10,
+      "intervalUnit": "SEC",
+      "metricType": "SMOOTHED_DISTANCE",
+      "values": [
+        "0.0",
+        "0.0",
+        "0.00462198984049",
+        "0.0257985518991",
+        "0.0530130302009",
+        "0.0835261990366",
+        "0.114073625779",
+        "0.144792974474",
+        "0.174868009898",
+        "0.203743458932",
+        "0.231630192957",
+        "0.259388677821",
+        "0.286921466998",
+        "0.313549799638",
+        "0.340283328785",
+        "0.366698353439",
+        "0.392654218234",
+        "0.419465116377",
+        "0.445852542232",
+        "0.474297774155",
+        "0.502737605029",
+        "0.531730942451",
+        "0.561006960603",
+        "0.589462973516",
+        "0.617952700097",
+        "0.644855055572",
+        "0.671490925213",
+        "0.698630315347",
+        "0.726139204168",
+        "0.754548055429",
+        "0.78274656889",
+        "0.810187775595",
+        "0.837152134528",
+        "0.864226188129",
+        "0.892281017949",
+        "0.920578975273",
+        "0.949726049923",
+        "0.979298791397",
+        "1.00834292936",
+        "1.03663214522",
+        "1.06396024516",
+        "1.0912278047",
+        "1.11839263788",
+        "1.14460507347",
+        "1.17117396668",
+        "1.19777121706",
+        "1.22511009381",
+        "1.25090922556",
+        "1.27547447055",
+        "1.28132231258"
+      ]
+    }
+  ],
+  "startTime": "2015-05-15T23:25:09Z",
+  "status": "COMPLETE",
+  "tags": [
+    {
+      "tagType": "TEMPERATURE",
+      "tagValue": "0"
+    }
+  ],
+  "timeSeries": {
+    "0": {
+      "DISTANCE": "0.0",
+      "FUEL": "13",
+      "GPSSIGNALSTRENGTH": "0.0",
+      "SMOOTHED_DISTANCE": "0.0",
+      "SPEED": "0.0",
+      "WAYPOINT": {
+        "elevation": 2781.2935,
+        "latitude": -0.18942301,
+        "longitude": -78.4842
+      }
+    },
+    "1000": {
+      "DISTANCE": "0.0",
+      "FUEL": "46",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "2000": {
+      "DISTANCE": "0.0",
+      "FUEL": "42",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "3000": {
+      "DISTANCE": "0.0",
+      "FUEL": "44",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "4000": {
+      "DISTANCE": "0.0",
+      "FUEL": "42",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "4411": {
+      "DISTANCE": "0.0",
+      "SMOOTHED_DISTANCE": "0.0",
+      "WAYPOINT": {
+        "elevation": 2781.2935,
+        "latitude": -0.18942301,
+        "longitude": -78.4842
+      }
+    },
+    "5000": {
+      "DISTANCE": "0.0",
+      "FUEL": "42",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "6000": {
+      "DISTANCE": "0.0",
+      "FUEL": "45",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "7000": {
+      "DISTANCE": "0.0",
+      "FUEL": "42",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "8000": {
+      "DISTANCE": "0.0",
+      "FUEL": "14",
+      "SMOOTHED_DISTANCE": "0.0"
+    },
+    "8823": {
+      "DISTANCE": "0.0",
+      "SMOOTHED_DISTANCE": "0.0",
+      "WAYPOINT": {
+        "elevation": 2781.2935,
+        "latitude": -0.18942301,
+        "longitude": -78.4842
+      }
+    },
+    "10000": {
+      "DISTANCE": "0.0",
+      "GPSSIGNALSTRENGTH": "0.0",
+      "SMOOTHED_DISTANCE": "0.0",
+      "SPEED": "0.0"
+    },
+    "13234": {
+      "DISTANCE": "0.00149475151441",
+      "SMOOTHED_DISTANCE": "0.00149475151441",
+      "WAYPOINT": {
+        "elevation": 2781.2935,
+        "latitude": -0.18942301,
+        "longitude": -78.4842
+      }
+    },
+    "17646": {
+      "DISTANCE": "0.00353397343204",
+      "SMOOTHED_DISTANCE": "0.00353397343204",
+      "WAYPOINT": {
+        "elevation": 2779.2842,
+        "latitude": -0.18937905,
+        "longitude": -78.4843
+      }
+    },
+    "20000": {
+      "DISTANCE": "0.00462198984049",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.00462198984049",
+      "SPEED": "5.478776181003883"
+    },
+    "22058": {
+      "DISTANCE": "0.00898012631215",
+      "SMOOTHED_DISTANCE": "0.00898012631215",
+      "WAYPOINT": {
+        "elevation": 2777.5503,
+        "latitude": -0.18943022,
+        "longitude": -78.484375
+      }
+    },
+    "26469": {
+      "DISTANCE": "0.0183211078362",
+      "SMOOTHED_DISTANCE": "0.0183211078362",
+      "WAYPOINT": {
+        "elevation": 2775.6558,
+        "latitude": -0.1895194,
+        "longitude": -78.48442
+      }
+    },
+    "30000": {
+      "DISTANCE": "0.0257985518991",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.0257985518991",
+      "SPEED": "9.207576968568187"
+    },
+    "30881": {
+      "DISTANCE": "0.0281961474375",
+      "SMOOTHED_DISTANCE": "0.0281961474375",
+      "WAYPOINT": {
+        "elevation": 2774.7913,
+        "latitude": -0.1895194,
+        "longitude": -78.48442
+      }
+    },
+    "35293": {
+      "DISTANCE": "0.0402031752642",
+      "SMOOTHED_DISTANCE": "0.0402031752642",
+      "WAYPOINT": {
+        "elevation": 2774.019,
+        "latitude": -0.18961231,
+        "longitude": -78.48449
+      }
+    },
+    "39704": {
+      "DISTANCE": "0.0522074816432",
+      "SMOOTHED_DISTANCE": "0.0522074816432",
+      "WAYPOINT": {
+        "elevation": 2773.2908,
+        "latitude": -0.1896888,
+        "longitude": -78.48456
+      }
+    },
+    "40000": {
+      "DISTANCE": "0.0530130302009",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.0530130302009",
+      "SPEED": "11.25404425963444"
+    },
+    "44116": {
+      "DISTANCE": "0.0655722504937",
+      "SMOOTHED_DISTANCE": "0.0655722504937",
+      "WAYPOINT": {
+        "elevation": 2772.963,
+        "latitude": -0.18975589,
+        "longitude": -78.48464
+      }
+    },
+    "48528": {
+      "DISTANCE": "0.079034660584",
+      "SMOOTHED_DISTANCE": "0.079034660584",
+      "WAYPOINT": {
+        "elevation": 2772.6746,
+        "latitude": -0.18980245,
+        "longitude": -78.484726
+      }
+    },
+    "50000": {
+      "DISTANCE": "0.0835261990366",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.0835261990366",
+      "SPEED": "10.94143191908904"
+    },
+    "52939": {
+      "DISTANCE": "0.0925040877562",
+      "SMOOTHED_DISTANCE": "0.0925040877562",
+      "WAYPOINT": {
+        "elevation": 2772.36,
+        "latitude": -0.18984747,
+        "longitude": -78.48481
+      }
+    },
+    "57351": {
+      "DISTANCE": "0.105981612435",
+      "SMOOTHED_DISTANCE": "0.105981612435",
+      "WAYPOINT": {
+        "elevation": 2771.9456,
+        "latitude": -0.18991168,
+        "longitude": -78.484924
+      }
+    },
+    "60000": {
+      "DISTANCE": "0.114073625779",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.114073625779",
+      "SPEED": "11.04563603260417"
+    },
+    "61763": {
+      "DISTANCE": "0.119489446954",
+      "SMOOTHED_DISTANCE": "0.119489446954",
+      "WAYPOINT": {
+        "elevation": 2771.6055,
+        "latitude": -0.1899512,
+        "longitude": -78.48503
+      }
+    },
+    "66174": {
+      "DISTANCE": "0.133039751663",
+      "SMOOTHED_DISTANCE": "0.133039751663",
+      "WAYPOINT": {
+        "elevation": 2769.1128,
+        "latitude": -0.19001159,
+        "longitude": -78.48511
+      }
+    },
+    "70000": {
+      "DISTANCE": "0.144792974474",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.144792974474",
+      "SPEED": "10.97616662359408"
+    },
+    "70586": {
+      "DISTANCE": "0.14655537155",
+      "SMOOTHED_DISTANCE": "0.14655537155",
+      "WAYPOINT": {
+        "elevation": 2766.921,
+        "latitude": -0.19011183,
+        "longitude": -78.48517
+      }
+    },
+    "74998": {
+      "DISTANCE": "0.159824477179",
+      "SMOOTHED_DISTANCE": "0.159824477179",
+      "WAYPOINT": {
+        "elevation": 2765.7063,
+        "latitude": -0.19017704,
+        "longitude": -78.48523
+      }
+    },
+    "79409": {
+      "DISTANCE": "0.173090575304",
+      "SMOOTHED_DISTANCE": "0.173090575304",
+      "WAYPOINT": {
+        "elevation": 2765.556,
+        "latitude": -0.19023743,
+        "longitude": -78.4853
+      }
+    },
+    "80000": {
+      "DISTANCE": "0.174868009898",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.174868009898",
+      "SPEED": "10.28147253349319"
+    },
+    "83821": {
+      "DISTANCE": "0.185901318974",
+      "SMOOTHED_DISTANCE": "0.185901318974",
+      "WAYPOINT": {
+        "elevation": 2765.1477,
+        "latitude": -0.19029653,
+        "longitude": -78.4854
+      }
+    },
+    "88232": {
+      "DISTANCE": "0.198638279543",
+      "SMOOTHED_DISTANCE": "0.198638279543",
+      "WAYPOINT": {
+        "elevation": 2764.7568,
+        "latitude": -0.19034229,
+        "longitude": -78.48549
+      }
+    },
+    "90000": {
+      "DISTANCE": "0.203743458932",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.203743458932",
+      "SPEED": "10.2120031244831"
+    },
+    "92644": {
+      "DISTANCE": "0.211116711408",
+      "SMOOTHED_DISTANCE": "0.211116711408",
+      "WAYPOINT": {
+        "elevation": 2764.3762,
+        "latitude": -0.19035152,
+        "longitude": -78.485596
+      }
+    },
+    "97056": {
+      "DISTANCE": "0.22342033846",
+      "SMOOTHED_DISTANCE": "0.22342033846",
+      "WAYPOINT": {
+        "elevation": 2762.5781,
+        "latitude": -0.19037716,
+        "longitude": -78.4857
+      }
+    },
+    "100000": {
+      "DISTANCE": "0.231630192957",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.231630192957",
+      "SPEED": "9.899390783937701"
+    },
+    "101467": {
+      "DISTANCE": "0.235702362687",
+      "SMOOTHED_DISTANCE": "0.235702362687",
+      "WAYPOINT": {
+        "elevation": 2761.523,
+        "latitude": -0.19037071,
+        "longitude": -78.4858
+      }
+    },
+    "105879": {
+      "DISTANCE": "0.247949406209",
+      "SMOOTHED_DISTANCE": "0.247949406209",
+      "WAYPOINT": {
+        "elevation": 2760.8474,
+        "latitude": -0.19033279,
+        "longitude": -78.48589
+      }
+    },
+    "110000": {
+      "DISTANCE": "0.259388677821",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.259388677821",
+      "SPEED": "10.2120031244831"
+    },
+    "110291": {
+      "DISTANCE": "0.260189881986",
+      "SMOOTHED_DISTANCE": "0.260189881986",
+      "WAYPOINT": {
+        "elevation": 2760.246,
+        "latitude": -0.19027716,
+        "longitude": -78.485985
+      }
+    },
+    "114702": {
+      "DISTANCE": "0.272334595292",
+      "SMOOTHED_DISTANCE": "0.272334595292",
+      "WAYPOINT": {
+        "elevation": 2761.8284,
+        "latitude": -0.19021803,
+        "longitude": -78.486084
+      }
+    },
+    "119114": {
+      "DISTANCE": "0.284482061877",
+      "SMOOTHED_DISTANCE": "0.284482061877",
+      "WAYPOINT": {
+        "elevation": 2763.189,
+        "latitude": -0.19016904,
+        "longitude": -78.48617
+      }
+    },
+    "120000": {
+      "DISTANCE": "0.286921466998",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.286921466998",
+      "SPEED": "9.51730903438221"
+    },
+    "123526": {
+      "DISTANCE": "0.296310617087",
+      "SMOOTHED_DISTANCE": "0.296310617087",
+      "WAYPOINT": {
+        "elevation": 2764.4426,
+        "latitude": -0.19013102,
+        "longitude": -78.48625
+      }
+    },
+    "127937": {
+      "DISTANCE": "0.308056374614",
+      "SMOOTHED_DISTANCE": "0.308056374614",
+      "WAYPOINT": {
+        "elevation": 2765.8682,
+        "latitude": -0.1900387,
+        "longitude": -78.486305
+      }
+    },
+    "130000": {
+      "DISTANCE": "0.313549799638",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.313549799638",
+      "SPEED": "9.621513147897344"
+    },
+    "132349": {
+      "DISTANCE": "0.319829505635",
+      "SMOOTHED_DISTANCE": "0.319829505635",
+      "WAYPOINT": {
+        "elevation": 2766.3464,
+        "latitude": -0.18993582,
+        "longitude": -78.486336
+      }
+    },
+    "136761": {
+      "DISTANCE": "0.331624338694",
+      "SMOOTHED_DISTANCE": "0.331624338694",
+      "WAYPOINT": {
+        "elevation": 2766.8694,
+        "latitude": -0.18983246,
+        "longitude": -78.48638
+      }
+    },
+    "140000": {
+      "DISTANCE": "0.340283328785",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.340283328785",
+      "SPEED": "9.621513147897344"
+    },
+    "141172": {
+      "DISTANCE": "0.343379169674",
+      "SMOOTHED_DISTANCE": "0.343379169674",
+      "WAYPOINT": {
+        "elevation": 2767.7766,
+        "latitude": -0.18975087,
+        "longitude": -78.486435
+      }
+    },
+    "145584": {
+      "DISTANCE": "0.355033478552",
+      "SMOOTHED_DISTANCE": "0.355033478552",
+      "WAYPOINT": {
+        "elevation": 2768.586,
+        "latitude": -0.18966869,
+        "longitude": -78.486496
+      }
+    },
+    "149996": {
+      "DISTANCE": "0.366687787429",
+      "SMOOTHED_DISTANCE": "0.366687787429",
+      "WAYPOINT": {
+        "elevation": 2769.2126,
+        "latitude": -0.18957677,
+        "longitude": -78.486534
+      }
+    },
+    "150000": {
+      "DISTANCE": "0.366698353439",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.366698353439",
+      "SPEED": "9.308900807351943"
+    },
+    "154407": {
+      "DISTANCE": "0.378137103054",
+      "SMOOTHED_DISTANCE": "0.378137103054",
+      "WAYPOINT": {
+        "elevation": 2770.3796,
+        "latitude": -0.18947661,
+        "longitude": -78.486565
+      }
+    },
+    "158819": {
+      "DISTANCE": "0.389588830602",
+      "SMOOTHED_DISTANCE": "0.389588830602",
+      "WAYPOINT": {
+        "elevation": 2772.2612,
+        "latitude": -0.18937154,
+        "longitude": -78.4866
+      }
+    },
+    "160000": {
+      "DISTANCE": "0.392654218234",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.392654218234",
+      "SPEED": "9.760451965917524"
+    },
+    "163231": {
+      "DISTANCE": "0.401316819424",
+      "SMOOTHED_DISTANCE": "0.401316819424",
+      "WAYPOINT": {
+        "elevation": 2774.0142,
+        "latitude": -0.1892687,
+        "longitude": -78.48662
+      }
+    },
+    "167642": {
+      "DISTANCE": "0.413143106595",
+      "SMOOTHED_DISTANCE": "0.413143106595",
+      "WAYPOINT": {
+        "elevation": 2774.658,
+        "latitude": -0.18916804,
+        "longitude": -78.486626
+      }
+    },
+    "170000": {
+      "DISTANCE": "0.419465116377",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.419465116377",
+      "SPEED": "9.378370216362033"
+    },
+    "172054": {
+      "DISTANCE": "0.424885093648",
+      "SMOOTHED_DISTANCE": "0.424885093648",
+      "WAYPOINT": {
+        "elevation": 2773.2058,
+        "latitude": -0.18907525,
+        "longitude": -78.48669
+      }
+    },
+    "176465": {
+      "DISTANCE": "0.436524587192",
+      "SMOOTHED_DISTANCE": "0.436524587192",
+      "WAYPOINT": {
+        "elevation": 2771.8389,
+        "latitude": -0.18900593,
+        "longitude": -78.48676
+      }
+    },
+    "180000": {
+      "DISTANCE": "0.445852542232",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.445852542232",
+      "SPEED": "9.864656079432654"
+    },
+    "180877": {
+      "DISTANCE": "0.448347189072",
+      "SMOOTHED_DISTANCE": "0.448347189072",
+      "WAYPOINT": {
+        "elevation": 2770.402,
+        "latitude": -0.18890153,
+        "longitude": -78.48679
+      }
+    },
+    "185289": {
+      "DISTANCE": "0.460897225396",
+      "SMOOTHED_DISTANCE": "0.460897225396",
+      "WAYPOINT": {
+        "elevation": 2768.833,
+        "latitude": -0.18878502,
+        "longitude": -78.486824
+      }
+    },
+    "189700": {
+      "DISTANCE": "0.473444417197",
+      "SMOOTHED_DISTANCE": "0.473444417197",
+      "WAYPOINT": {
+        "elevation": 2768.4744,
+        "latitude": -0.18866892,
+        "longitude": -78.48687
+      }
+    },
+    "190000": {
+      "DISTANCE": "0.474297774155",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.474297774155",
+      "SPEED": "10.14253371547301"
+    },
+    "194112": {
+      "DISTANCE": "0.48599223261",
+      "SMOOTHED_DISTANCE": "0.48599223261",
+      "WAYPOINT": {
+        "elevation": 2768.7876,
+        "latitude": -0.18858787,
+        "longitude": -78.48694
+      }
+    },
+    "198524": {
+      "DISTANCE": "0.498539885992",
+      "SMOOTHED_DISTANCE": "0.498539885992",
+      "WAYPOINT": {
+        "elevation": 2769.0767,
+        "latitude": -0.18851252,
+        "longitude": -78.487
+      }
+    },
+    "200000": {
+      "DISTANCE": "0.502737605029",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.502737605029",
+      "SPEED": "10.38567664700832"
+    },
+    "202935": {
+      "DISTANCE": "0.511247149562",
+      "SMOOTHED_DISTANCE": "0.511247149562",
+      "WAYPOINT": {
+        "elevation": 2769.3794,
+        "latitude": -0.18843901,
+        "longitude": -78.487076
+      }
+    },
+    "207347": {
+      "DISTANCE": "0.524039010033",
+      "SMOOTHED_DISTANCE": "0.524039010033",
+      "WAYPOINT": {
+        "elevation": 2769.6538,
+        "latitude": -0.18834677,
+        "longitude": -78.48707
+      }
+    },
+    "210000": {
+      "DISTANCE": "0.531730942451",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.531730942451",
+      "SPEED": "10.55935016953355"
+    },
+    "211759": {
+      "DISTANCE": "0.536880594044",
+      "SMOOTHED_DISTANCE": "0.536880594044",
+      "WAYPOINT": {
+        "elevation": 2769.9614,
+        "latitude": -0.18824342,
+        "longitude": -78.48707
+      }
+    },
+    "216170": {
+      "DISTANCE": "0.549794245651",
+      "SMOOTHED_DISTANCE": "0.549794245651",
+      "WAYPOINT": {
+        "elevation": 2770.2349,
+        "latitude": -0.18816446,
+        "longitude": -78.487114
+      }
+    },
+    "220000": {
+      "DISTANCE": "0.561006960603",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.561006960603",
+      "SPEED": "10.55935016953355"
+    },
+    "220582": {
+      "DISTANCE": "0.562663100555",
+      "SMOOTHED_DISTANCE": "0.562663100555",
+      "WAYPOINT": {
+        "elevation": 2770.5176,
+        "latitude": -0.18808413,
+        "longitude": -78.48717
+      }
+    },
+    "224994": {
+      "DISTANCE": "0.575217893452",
+      "SMOOTHED_DISTANCE": "0.575217893452",
+      "WAYPOINT": {
+        "elevation": 2770.8518,
+        "latitude": -0.18797608,
+        "longitude": -78.4872
+      }
+    },
+    "229405": {
+      "DISTANCE": "0.587769840748",
+      "SMOOTHED_DISTANCE": "0.587769840748",
+      "WAYPOINT": {
+        "elevation": 2771.1633,
+        "latitude": -0.18787424,
+        "longitude": -78.48722
+      }
+    },
+    "230000": {
+      "DISTANCE": "0.589462973516",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.589462973516",
+      "SPEED": "10.35094194250328"
+    },
+    "233817": {
+      "DISTANCE": "0.600337502152",
+      "SMOOTHED_DISTANCE": "0.600337502152",
+      "WAYPOINT": {
+        "elevation": 2771.4607,
+        "latitude": -0.1877768,
+        "longitude": -78.48724
+      }
+    },
+    "238229": {
+      "DISTANCE": "0.61290716952",
+      "SMOOTHED_DISTANCE": "0.61290716952",
+      "WAYPOINT": {
+        "elevation": 2771.7986,
+        "latitude": -0.18766318,
+        "longitude": -78.48724
+      }
+    },
+    "240000": {
+      "DISTANCE": "0.617952700097",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.617952700097",
+      "SPEED": "10.00359489745283"
+    },
+    "242640": {
+      "DISTANCE": "0.625054921942",
+      "SMOOTHED_DISTANCE": "0.625054921942",
+      "WAYPOINT": {
+        "elevation": 2772.0771,
+        "latitude": -0.18756972,
+        "longitude": -78.487236
+      }
+    },
+    "247052": {
+      "DISTANCE": "0.636924241178",
+      "SMOOTHED_DISTANCE": "0.636924241178",
+      "WAYPOINT": {
+        "elevation": 2772.3784,
+        "latitude": -0.18746842,
+        "longitude": -78.487236
+      }
+    },
+    "250000": {
+      "DISTANCE": "0.644855055572",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.644855055572",
+      "SPEED": "9.413104920867077"
+    },
+    "251463": {
+      "DISTANCE": "0.6487518833",
+      "SMOOTHED_DISTANCE": "0.6487518833",
+      "WAYPOINT": {
+        "elevation": 2772.6934,
+        "latitude": -0.18736307,
+        "longitude": -78.48725
+      }
+    },
+    "255875": {
+      "DISTANCE": "0.660503628986",
+      "SMOOTHED_DISTANCE": "0.660503628986",
+      "WAYPOINT": {
+        "elevation": 2773.023,
+        "latitude": -0.18725227,
+        "longitude": -78.48725
+      }
+    },
+    "260000": {
+      "DISTANCE": "0.671490925213",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.671490925213",
+      "SPEED": "9.760451965917524"
+    },
+    "260287": {
+      "DISTANCE": "0.67226982571",
+      "SMOOTHED_DISTANCE": "0.67226982571",
+      "WAYPOINT": {
+        "elevation": 2773.3704,
+        "latitude": -0.18713555,
+        "longitude": -78.48724
+      }
+    },
+    "264698": {
+      "DISTANCE": "0.684241010698",
+      "SMOOTHED_DISTANCE": "0.684241010698",
+      "WAYPOINT": {
+        "elevation": 2773.6633,
+        "latitude": -0.18703793,
+        "longitude": -78.487236
+      }
+    },
+    "269110": {
+      "DISTANCE": "0.696214909625",
+      "SMOOTHED_DISTANCE": "0.696214909625",
+      "WAYPOINT": {
+        "elevation": 2774.0728,
+        "latitude": -0.18690081,
+        "longitude": -78.48722
+      }
+    },
+    "270000": {
+      "DISTANCE": "0.698630315347",
+      "GPSSIGNALSTRENGTH": "0.95",
+      "SMOOTHED_DISTANCE": "0.698630315347",
+      "SPEED": "9.760451965917524"
+    },
+    "273522": {
+      "DISTANCE": "0.70831894599",
+      "SMOOTHED_DISTANCE": "0.70831894599",
+      "WAYPOINT": {
+        "elevation": 2773.1821,
+        "latitude": -0.18679583,
+        "longitude": -78.48721
+      }
+    },
+    "277933": {
+      "DISTANCE": "0.720453116849",
+      "SMOOTHED_DISTANCE": "0.720453116849",
+      "WAYPOINT": {
+        "elevation": 2772.271,
+        "latitude": -0.18668875,
+        "longitude": -78.4872
+      }
+    },
+    "280000": {
+      "DISTANCE": "0.726139204168",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.726139204168",
+      "SPEED": "10.17726841997806"
+    },
+    "282345": {
+      "DISTANCE": "0.732801079789",
+      "SMOOTHED_DISTANCE": "0.732801079789",
+      "WAYPOINT": {
+        "elevation": 2771.4927,
+        "latitude": -0.18659922,
+        "longitude": -78.48718
+      }
+    },
+    "286757": {
+      "DISTANCE": "0.745335064965",
+      "SMOOTHED_DISTANCE": "0.745335064965",
+      "WAYPOINT": {
+        "elevation": 2770.6128,
+        "latitude": -0.18649709,
+        "longitude": -78.48716
+      }
+    },
+    "290000": {
+      "DISTANCE": "0.754548055429",
+      "GPSSIGNALSTRENGTH": "0.7749999999999999",
+      "SMOOTHED_DISTANCE": "0.754548055429",
+      "SPEED": "10.17726841997806"
+    },
+    "291168": {
+      "DISTANCE": "0.757841641801",
+      "SMOOTHED_DISTANCE": "0.757841641801",
+      "WAYPOINT": {
+        "elevation": 2769.5884,
+        "latitude": -0.18637697,
+        "longitude": -78.487175
+      }
+    },
+    "295580": {
+      "DISTANCE": "0.77028282594",
+      "SMOOTHED_DISTANCE": "0.77028282594",
+      "WAYPOINT": {
+        "elevation": 2768.69,
+        "latitude": -0.18627125,
+        "longitude": -78.48718
+      }
+    },
+    "299992": {
+      "DISTANCE": "0.782724010079",
+      "SMOOTHED_DISTANCE": "0.782724010079",
+      "WAYPOINT": {
+        "elevation": 2767.8442,
+        "latitude": -0.18616304,
+        "longitude": -78.48715
+      }
+    },
+    "300000": {
+      "DISTANCE": "0.78274656889",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.78274656889",
+      "SPEED": "9.864656079432654"
+    },
+    "304403": {
+      "DISTANCE": "0.794828932202",
+      "SMOOTHED_DISTANCE": "0.794828932202",
+      "WAYPOINT": {
+        "elevation": 2769.3962,
+        "latitude": -0.18607159,
+        "longitude": -78.4871
+      }
+    },
+    "308815": {
+      "DISTANCE": "0.8069359926",
+      "SMOOTHED_DISTANCE": "0.8069359926",
+      "WAYPOINT": {
+        "elevation": 2770.7783,
+        "latitude": -0.18604447,
+        "longitude": -78.48701
+      }
+    },
+    "310000": {
+      "DISTANCE": "0.810187775595",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.810187775595",
+      "SPEED": "9.829921374927611"
+    },
+    "313227": {
+      "DISTANCE": "0.818889174223",
+      "SMOOTHED_DISTANCE": "0.818889174223",
+      "WAYPOINT": {
+        "elevation": 2772.36,
+        "latitude": -0.18595172,
+        "longitude": -78.486946
+      }
+    },
+    "317638": {
+      "DISTANCE": "0.830783152948",
+      "SMOOTHED_DISTANCE": "0.830783152948",
+      "WAYPOINT": {
+        "elevation": 2773.9902,
+        "latitude": -0.18584096,
+        "longitude": -78.48692
+      }
+    },
+    "320000": {
+      "DISTANCE": "0.837152134528",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.837152134528",
+      "SPEED": "9.725717261412479"
+    },
+    "322050": {
+      "DISTANCE": "0.842702315516",
+      "SMOOTHED_DISTANCE": "0.842702315516",
+      "WAYPOINT": {
+        "elevation": 2775.3994,
+        "latitude": -0.18574364,
+        "longitude": -78.48693
+      }
+    },
+    "326462": {
+      "DISTANCE": "0.854647387965",
+      "SMOOTHED_DISTANCE": "0.854647387965",
+      "WAYPOINT": {
+        "elevation": 2777.5002,
+        "latitude": -0.18564,
+        "longitude": -78.4869
+      }
+    },
+    "330000": {
+      "DISTANCE": "0.864226188129",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.864226188129",
+      "SPEED": "10.00359489745283"
+    },
+    "330873": {
+      "DISTANCE": "0.866675374772",
+      "SMOOTHED_DISTANCE": "0.866675374772",
+      "WAYPOINT": {
+        "elevation": 2778.2585,
+        "latitude": -0.18555023,
+        "longitude": -78.48682
+      }
+    },
+    "335285": {
+      "DISTANCE": "0.879053165689",
+      "SMOOTHED_DISTANCE": "0.879053165689",
+      "WAYPOINT": {
+        "elevation": 2778.418,
+        "latitude": -0.18546994,
+        "longitude": -78.48676
+      }
+    },
+    "339696": {
+      "DISTANCE": "0.891428151122",
+      "SMOOTHED_DISTANCE": "0.891428151122",
+      "WAYPOINT": {
+        "elevation": 2778.5874,
+        "latitude": -0.18539026,
+        "longitude": -78.4867
+      }
+    },
+    "340000": {
+      "DISTANCE": "0.892281017949",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.892281017949",
+      "SPEED": "10.14253371547301"
+    },
+    "344108": {
+      "DISTANCE": "0.903905818818",
+      "SMOOTHED_DISTANCE": "0.903905818818",
+      "WAYPOINT": {
+        "elevation": 2778.738,
+        "latitude": -0.18531717,
+        "longitude": -78.48665
+      }
+    },
+    "348520": {
+      "DISTANCE": "0.916390877589",
+      "SMOOTHED_DISTANCE": "0.916390877589",
+      "WAYPOINT": {
+        "elevation": 2778.8962,
+        "latitude": -0.18523382,
+        "longitude": -78.4866
+      }
+    },
+    "350000": {
+      "DISTANCE": "0.920578975273",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.920578975273",
+      "SPEED": "10.2120031244831"
+    },
+    "352931": {
+      "DISTANCE": "0.929121982853",
+      "SMOOTHED_DISTANCE": "0.929121982853",
+      "WAYPOINT": {
+        "elevation": 2779.998,
+        "latitude": -0.18512438,
+        "longitude": -78.48656
+      }
+    },
+    "357343": {
+      "DISTANCE": "0.941981672188",
+      "SMOOTHED_DISTANCE": "0.941981672188",
+      "WAYPOINT": {
+        "elevation": 2780.4612,
+        "latitude": -0.18500759,
+        "longitude": -78.486534
+      }
+    },
+    "360000": {
+      "DISTANCE": "0.949726049923",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.949726049923",
+      "SPEED": "10.55935016953355"
+    },
+    "361755": {
+      "DISTANCE": "0.954916066052",
+      "SMOOTHED_DISTANCE": "0.954916066052",
+      "WAYPOINT": {
+        "elevation": 2778.634,
+        "latitude": -0.18490721,
+        "longitude": -78.48655
+      }
+    },
+    "366166": {
+      "DISTANCE": "0.967960602316",
+      "SMOOTHED_DISTANCE": "0.967960602316",
+      "WAYPOINT": {
+        "elevation": 2776.716,
+        "latitude": -0.18480968,
+        "longitude": -78.48659
+      }
+    },
+    "370000": {
+      "DISTANCE": "0.979298791397",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "0.979298791397",
+      "SPEED": "10.55935016953355"
+    },
+    "370578": {
+      "DISTANCE": "0.980977542571",
+      "SMOOTHED_DISTANCE": "0.980977542571",
+      "WAYPOINT": {
+        "elevation": 2775.0383,
+        "latitude": -0.18474457,
+        "longitude": -78.48666
+      }
+    },
+    "374990": {
+      "DISTANCE": "0.993791816241",
+      "SMOOTHED_DISTANCE": "0.993791816241",
+      "WAYPOINT": {
+        "elevation": 2772.8862,
+        "latitude": -0.18470438,
+        "longitude": -78.486755
+      }
+    },
+    "379401": {
+      "DISTANCE": "1.0066031855",
+      "SMOOTHED_DISTANCE": "1.0066031855",
+      "WAYPOINT": {
+        "elevation": 2771.0479,
+        "latitude": -0.18463635,
+        "longitude": -78.486824
+      }
+    },
+    "380000": {
+      "DISTANCE": "1.00834292936",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.00834292936",
+      "SPEED": "10.5246154650285"
+    },
+    "383813": {
+      "DISTANCE": "1.01912960737",
+      "SMOOTHED_DISTANCE": "1.01912960737",
+      "WAYPOINT": {
+        "elevation": 2770.5547,
+        "latitude": -0.18451737,
+        "longitude": -78.486824
+      }
+    },
+    "388225": {
+      "DISTANCE": "1.0316108094",
+      "SMOOTHED_DISTANCE": "1.0316108094",
+      "WAYPOINT": {
+        "elevation": 2773.6,
+        "latitude": -0.1844076,
+        "longitude": -78.48679
+      }
+    },
+    "390000": {
+      "DISTANCE": "1.03663214522",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.03663214522",
+      "SPEED": "9.829921374927611"
+    },
+    "392636": {
+      "DISTANCE": "1.04383583236",
+      "SMOOTHED_DISTANCE": "1.04383583236",
+      "WAYPOINT": {
+        "elevation": 2776.5254,
+        "latitude": -0.18429965,
+        "longitude": -78.48677
+      }
+    },
+    "397048": {
+      "DISTANCE": "1.05589299006",
+      "SMOOTHED_DISTANCE": "1.05589299006",
+      "WAYPOINT": {
+        "elevation": 2780.3123,
+        "latitude": -0.18419853,
+        "longitude": -78.48678
+      }
+    },
+    "400000": {
+      "DISTANCE": "1.06396024516",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.06396024516",
+      "SPEED": "9.829921374927611"
+    },
+    "401460": {
+      "DISTANCE": "1.06794130885",
+      "SMOOTHED_DISTANCE": "1.06794130885",
+      "WAYPOINT": {
+        "elevation": 2783.3643,
+        "latitude": -0.18411584,
+        "longitude": -78.48674
+      }
+    },
+    "405871": {
+      "DISTANCE": "1.07996902937",
+      "SMOOTHED_DISTANCE": "1.07996902937",
+      "WAYPOINT": {
+        "elevation": 2785.389,
+        "latitude": -0.18402275,
+        "longitude": -78.48669
+      }
+    },
+    "410000": {
+      "DISTANCE": "1.0912278047",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.0912278047",
+      "SPEED": "9.934125488442746"
+    },
+    "410283": {
+      "DISTANCE": "1.09199656948",
+      "SMOOTHED_DISTANCE": "1.09199656948",
+      "WAYPOINT": {
+        "elevation": 2786.318,
+        "latitude": -0.18393546,
+        "longitude": -78.48665
+      }
+    },
+    "414694": {
+      "DISTANCE": "1.10397897739",
+      "SMOOTHED_DISTANCE": "1.10397897739",
+      "WAYPOINT": {
+        "elevation": 2786.8342,
+        "latitude": -0.18382788,
+        "longitude": -78.4866
+      }
+    },
+    "419106": {
+      "DISTANCE": "1.11596410179",
+      "SMOOTHED_DISTANCE": "1.11596410179",
+      "WAYPOINT": {
+        "elevation": 2787.3518,
+        "latitude": -0.18373245,
+        "longitude": -78.486595
+      }
+    },
+    "420000": {
+      "DISTANCE": "1.11839263788",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.11839263788",
+      "SPEED": "9.343635511856986"
+    },
+    "423518": {
+      "DISTANCE": "1.12761417272",
+      "SMOOTHED_DISTANCE": "1.12761417272",
+      "WAYPOINT": {
+        "elevation": 2787.732,
+        "latitude": -0.18361677,
+        "longitude": -78.48659
+      }
+    },
+    "427929": {
+      "DISTANCE": "1.13917647806",
+      "SMOOTHED_DISTANCE": "1.13917647806",
+      "WAYPOINT": {
+        "elevation": 2788.0088,
+        "latitude": -0.1835087,
+        "longitude": -78.4866
+      }
+    },
+    "430000": {
+      "DISTANCE": "1.14460507347",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.14460507347",
+      "SPEED": "9.308900807351943"
+    },
+    "432341": {
+      "DISTANCE": "1.15082485137",
+      "SMOOTHED_DISTANCE": "1.15082485137",
+      "WAYPOINT": {
+        "elevation": 2788.3645,
+        "latitude": -0.18340735,
+        "longitude": -78.48659
+      }
+    },
+    "436753": {
+      "DISTANCE": "1.16254704705",
+      "SMOOTHED_DISTANCE": "1.16254704705",
+      "WAYPOINT": {
+        "elevation": 2788.6912,
+        "latitude": -0.18333419,
+        "longitude": -78.486534
+      }
+    },
+    "440000": {
+      "DISTANCE": "1.17117396668",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.17117396668",
+      "SPEED": "9.552043738887255"
+    },
+    "441164": {
+      "DISTANCE": "1.17426988662",
+      "SMOOTHED_DISTANCE": "1.17426988662",
+      "WAYPOINT": {
+        "elevation": 2786.6343,
+        "latitude": -0.18328503,
+        "longitude": -78.48645
+      }
+    },
+    "445576": {
+      "DISTANCE": "1.18600459349",
+      "SMOOTHED_DISTANCE": "1.18600459349",
+      "WAYPOINT": {
+        "elevation": 2784.6538,
+        "latitude": -0.18328473,
+        "longitude": -78.48637
+      }
+    },
+    "449988": {
+      "DISTANCE": "1.19773930036",
+      "SMOOTHED_DISTANCE": "1.19773930036",
+      "WAYPOINT": {
+        "elevation": 2782.344,
+        "latitude": -0.18329068,
+        "longitude": -78.48626
+      }
+    },
+    "450000": {
+      "DISTANCE": "1.19777121706",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.19777121706",
+      "SPEED": "9.829921374927611"
+    },
+    "454399": {
+      "DISTANCE": "1.20979758894",
+      "SMOOTHED_DISTANCE": "1.20979758894",
+      "WAYPOINT": {
+        "elevation": 2779.8071,
+        "latitude": -0.18328573,
+        "longitude": -78.48616
+      }
+    },
+    "458811": {
+      "DISTANCE": "1.22185950136",
+      "SMOOTHED_DISTANCE": "1.22185950136",
+      "WAYPOINT": {
+        "elevation": 2778.1326,
+        "latitude": -0.18328242,
+        "longitude": -78.48603
+      }
+    },
+    "460000": {
+      "DISTANCE": "1.22511009381",
+      "GPSSIGNALSTRENGTH": "0.95",
+      "SMOOTHED_DISTANCE": "1.22511009381",
+      "SPEED": "9.725717261412479"
+    },
+    "463223": {
+      "DISTANCE": "1.23342515397",
+      "SMOOTHED_DISTANCE": "1.23342515397",
+      "WAYPOINT": {
+        "elevation": 2776.5518,
+        "latitude": -0.18327925,
+        "longitude": -78.48593
+      }
+    },
+    "467634": {
+      "DISTANCE": "1.24480515099",
+      "SMOOTHED_DISTANCE": "1.24480515099",
+      "WAYPOINT": {
+        "elevation": 2774.7754,
+        "latitude": -0.18329893,
+        "longitude": -78.48582
+      }
+    },
+    "470000": {
+      "DISTANCE": "1.25090922556",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.25090922556",
+      "SPEED": "8.510002603735918"
+    },
+    "472046": {
+      "DISTANCE": "1.25593527468",
+      "SMOOTHED_DISTANCE": "1.25593527468",
+      "WAYPOINT": {
+        "elevation": 2773.358,
+        "latitude": -0.18330774,
+        "longitude": -78.4857
+      }
+    },
+    "476458": {
+      "DISTANCE": "1.26677346077",
+      "SMOOTHED_DISTANCE": "1.26677346077",
+      "WAYPOINT": {
+        "elevation": 2772.6597,
+        "latitude": -0.18329495,
+        "longitude": -78.4856
+      }
+    },
+    "480000": {
+      "DISTANCE": "1.27547447055",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.27547447055",
+      "SPEED": "8.336329081210694"
+    },
+    "480869": {
+      "DISTANCE": "1.27599873676",
+      "SMOOTHED_DISTANCE": "1.27599873676",
+      "WAYPOINT": {
+        "elevation": 2772.5388,
+        "latitude": -0.18320464,
+        "longitude": -78.48561
+      }
+    },
+    "485281": {
+      "DISTANCE": "1.27866048879",
+      "SMOOTHED_DISTANCE": "1.27866048879",
+      "WAYPOINT": {
+        "elevation": 2772.5083,
+        "latitude": -0.18320464,
+        "longitude": -78.48561
+      }
+    },
+    "489693": {
+      "DISTANCE": "1.28132224083",
+      "SMOOTHED_DISTANCE": "1.28132224083",
+      "WAYPOINT": {
+        "elevation": 2772.2642,
+        "latitude": -0.18310925,
+        "longitude": -78.4856
+      }
+    },
+    "490000": {
+      "DISTANCE": "1.28132231258",
+      "GPSSIGNALSTRENGTH": "1.0",
+      "SMOOTHED_DISTANCE": "1.28132231258",
+      "SPEED": "0.0"
+    }
+  }
+}
