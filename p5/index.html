@@ -92,7 +92,7 @@ path {
 
         var waypoints;
         var renderer, scene, camera, controls;
-        var object, object2, runner, uniforms,mesh,geoCil;
+        var object, object2, runner, uniforms;
         var datosNike;
         var minLat = Infinity; 
         var maxLat = -Infinity; 
@@ -103,8 +103,6 @@ path {
         var segNum = 50;
         var marginWidth;
         var marginHeight;
-
-        var cilindro;
 
         if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 
@@ -141,10 +139,6 @@ path {
 
             scene = new THREE.Scene();
 
-
-
-
-            //
             uniforms = {
                 amplitude: { type: "f", value: 5.0 },
                 opacity:   { type: "f", value: 0.3 },
@@ -167,7 +161,6 @@ path {
 
             });
 
-
             var shaderMaterial2 = new THREE.ShaderMaterial( {
                 uniforms:       uniforms2,
                 vertexShader:   document.getElementById( 'vertexshader' ).textContent,
@@ -178,16 +171,6 @@ path {
                 transparent:    true
 
             });
-
-
-             //cilindro//
-            geoCil= new THREE.CylinderGeometry(8,8,2,24);
-            var material= new THREE.MeshBasicMaterial({color:0x00ccff});
-            cilindro= new THREE.Mesh(geoCil,material);
-            scene.add(cilindro);
-            cilindro.rotation.x=PI/6;
-             //
-
 
             lastX = map(waypoints[0].latitude, minLat, maxLat, 0 + marginWidth, width - marginWidth);
             lastY = map(waypoints[0].longitude, minLon, maxLon, 0 + marginHeight, height - marginHeight);
@@ -219,7 +202,6 @@ path {
             }
             object = new THREE.Line( buffergeometry, shaderMaterial );
             object.rotation.x = PI/6;
-            
             scene.add( object );
 
             //////////////////////    GEOMETRY 2 /////////////////////////////////////////////
@@ -227,16 +209,11 @@ path {
             for(var i=0; i<waypoints.length; i++){
                 var x = map(waypoints[i].latitude, minLat, maxLat, 0 + marginWidth, width - marginWidth);
                 var y = map(waypoints[i].longitude, minLon, maxLon, 0 + marginHeight, height - marginHeight);
-
-                geometry2.vertices.push(new THREE.Vector3( x, i*13/i, y));
-                
-                
-
+                geometry2.vertices.push(
+                    new THREE.Vector3( x, i*13/i, y)
+                );
             }
-            
             geometry2.center();
-            //geoCil.center();
-            var vertices3= geoCil.vertices
             var vertices2 = geometry2.vertices;
             var buffergeometry2 = new THREE.BufferGeometry();
             var position2 = new THREE.Float32Attribute( vertices2.length * 3, 3 ).copyVector3sArray( vertices2 );
@@ -263,7 +240,6 @@ path {
             runner = new THREE.Line( buffergeometry3, shaderMaterial2);
             runner.rotation.x = PI/6;
             scene.add( runner );
-           
 
             ///////////////////////////////////////////////////////////////////
             renderer = new THREE.WebGLRenderer( { antialias: true } );
@@ -281,19 +257,12 @@ path {
         function updateRunner(){
             var time = Date.now() * 0.001;
             runner.rotation.y = 0.09 * time;
-           //cilindro.rotation.y= 0.09*time;
 
             var attributes1 = object2.geometry.attributes;
             var array1 = attributes1.position.array;
 
             var attributes2 = runner.geometry.attributes;
-            
             var array2 = attributes2.position.array;
-/////////////////el array[0] es x, [1] es y [2] es z
-
-            cilindro.position.x= array2[0];
-            cilindro.position.y=array2[1];
-            cilindro.position.z=array2[2];
 
             for( var i = 0; i < array2.length; i+=3){
                 array2[i] = array1[i + control];
@@ -306,7 +275,6 @@ path {
             uniforms2.amplitude.value = 1;
             uniforms2.color.value.offsetHSL( 0.005, 0, 0 );
             var array3 = attributes2.displacement.array;
-              
             for ( var i = 0; i < array3.length; i += 3 ) {
                 array3[ i     ] = constrain(array3[i] + 0.3*(0.5 - Math.random()), 0, 1);
                 array3[ i + 1 ] = constrain(array3[i+1] + 0.3*(0.5 - Math.random()), 0, 1);
@@ -314,22 +282,17 @@ path {
             }
             attributes2.displacement.needsUpdate = true;
             attributes2.position.needsUpdate = true;
-            cilindro.position.needsUpdate= true;
-           
-        
         }
 
         function updateObject(){
             var time = Date.now() * 0.001;
             object.rotation.y = 0.09 * time;
             object2.rotation.y = 0.09 * time;
-            //cilindro.rotation.y= 0.09*time;
 
             uniforms.amplitude.value = 1;
             uniforms.color.value.offsetHSL( 0.00, 0, 0 );
             var attributes = object.geometry.attributes;
             var array = attributes.displacement.array;
-
             for ( var i = 0; i < array.length; i += 3 ) {
                 array[ i     ] = constrain(array[i] + 0.3*(0.5 - Math.random()), 0, 1);
                 array[ i + 1 ] = constrain(array[i+1] + 0.3*(0.5 - Math.random()), 0, 1);
@@ -352,14 +315,7 @@ path {
         function render() {
             updateObject();
             updateRunner();
-            moverCilindro();
             renderer.render( scene, camera );
-
-
-        }
-
-        function moverCilindro(){
-           // cilindro.rotation.x+=0.1;
 
         }
 
