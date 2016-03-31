@@ -23,21 +23,90 @@ path {
     stroke-width: 2;
     fill: none;
 }
-.axis path,
-.axis line {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
+#ciudad{
+    color:#FFF;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+#dispositivo{
+    color:#FFF;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+}
+#distancia{
+    color:#FFF;
+    position: fixed;
+    top: 18%;
+    right: 5%;
+}
+#velocidad{
+    color:#FFF;
+    position: fixed;
+    top: 13%;
+    right: 5%;
+}
+#velocidadTexto{
+    color:#FFF;
+    position: fixed;
+    top: 13%;
+    right: 12%;
+}
+#distanciaTexto{
+    color:#FFF;
+    position: fixed;
+    top: 18%;
+    right: 12%;
 }
 </style>
 <body>
 
-<!-- load the d3.js library -->    
+
+<!-- load the d3.js library -->  
+
         <div id="title">
+            
              <h1>NIKE +</h1>
              <h4>Visualizacion de datos</h4>
+
         </div>
+         <div id="velocidadTexto">
+            
+             <h1>Speed:</h1>
+             
+
+        </div>
+        <div id="distanciaTexto">
+            
+             <h1>Distance:</h1>
+             
+
+        </div>
+
+        <div id="datosLugar">
+            
+             <h2 id = "ciudad"></h2>
+             <h4 id= "dispositivo" ></h4>
+            
+
+        </div>
+
+        <div id="distanciaPersona">
+
+            <h1 id="distancia"></h1>
+
+
+        </div>
+
+        <div id="speed">
+            
+             <h1 id = "velocidad"></h1>
+             
+            
+
+        </div>
+       
         <div id="container"></div>
 
         <script type="text/javascript" src="js/Detector.js"></script>
@@ -48,6 +117,7 @@ path {
 
 
         <script type="x-shader/x-vertex" id="vertexshader">
+
             uniform float amplitude;
             attribute vec3 displacement;
             attribute vec3 customColor;
@@ -60,19 +130,21 @@ path {
         </script>
 
         <script type="x-shader/x-fragment" id="fragmentshader">
+
             uniform vec3 color;
             uniform float opacity;
             varying vec3 vColor;
             void main() {
                 gl_FragColor = vec4( vColor * color, 1.0);
             }
+
         </script>
 
 
         <script>
         var waypoints;
         var renderer, scene, camera, controls;
-        var object, object2, runner, uniforms,mesh,geoCil;
+        var object, object2, runner, uniforms,mesh,geoCil,geoCil2;
         var datosNike;
         var minLat = Infinity; 
         var maxLat = -Infinity; 
@@ -83,7 +155,16 @@ path {
         var marginWidth;
         var marginHeight;
         var cilindro;
+        var cilindro2;
+        var luz1;
+        var dispositivo;
+        var distancia;
+        var velocidad;
+        var sum=0;
+      
+        
         if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+
         function preload() {
             var url = 'data/NikePlus-2015-05-15-5677000000002144711100005909339036064031.json';
             datosNike = loadJSON(url);  
@@ -93,7 +174,23 @@ path {
             height = window.innerHeight;
             marginWidth = 0.2*width;
             marginHeight = 0.4*height;
+            
             waypoints = datosNike.gpsmetrics[0].waypoints;
+        
+           
+        
+        
+            ciudad= datosNike.activityTimeZone;
+            dispositivo= datosNike.deviceType;
+            
+
+            console.log(ciudad);
+            document.getElementById("ciudad").innerHTML = ciudad;
+            document.getElementById("dispositivo").innerHTML = dispositivo;
+
+
+            
+
             for(var i=1; i<waypoints.length; i++){
                 if(waypoints[i].latitude < minLat) minLat = waypoints[i].latitude;
                 if(waypoints[i].latitude > maxLat) maxLat = waypoints[i].latitude;
@@ -107,7 +204,10 @@ path {
             init();
             animate();
         }  
-        function init() {
+
+           
+        function init(){
+
             camera = new THREE.PerspectiveCamera( 30, window.innerWidth / window.innerHeight, 1, 10000 );
             camera.position.z = 1000;
             controls = new THREE.OrbitControls(camera);
@@ -143,10 +243,22 @@ path {
                 transparent:    true
             });
              //cilindro//
-            geoCil= new THREE.CylinderGeometry(8,8,2,24);
+            geoCil= new THREE.CylinderGeometry(4,4,2,24);
             var material= new THREE.MeshBasicMaterial({color:0xffffff, transparent: true, opacity: 0.9});
             cilindro= new THREE.Mesh(geoCil,material);
             scene.add(cilindro);
+             //
+             //cilindro2//
+             geoCil2= new THREE.CylinderGeometry(15,15,2,24);
+             var material2 = new THREE.MeshBasicMaterial({color:0x54CCFF, transparent: true, opacity: 0.2})
+             cilindro2= new THREE.Mesh(geoCil2,material2);
+             scene.add(cilindro2);
+             //
+             //luz//
+//           var light = new THREE.PointLight( 0xff0000, 1, 100 );
+// light.position.set( 50, 50, 50 );
+// scene.add( light );
+
              //
             lastX = map(waypoints[0].latitude, minLat, maxLat, 0 + marginWidth, width - marginWidth);
             lastY = map(waypoints[0].longitude, minLon, maxLon, 0 + marginHeight, height - marginHeight);
@@ -222,6 +334,7 @@ path {
         }
         function updateRunner(){
             var time = Date.now() * 0.001;
+       
             //runner.rotation.y = 0.09 * time;
             var attributes1 = object2.geometry.attributes;
             var array1 = attributes1.position.array;
@@ -232,6 +345,10 @@ path {
             cilindro.position.x= array1[control + segNum*3];
             cilindro.position.y=array1[control + 1 + segNum*3];
             cilindro.position.z = array1[control + 2 + segNum*3];
+
+            cilindro2.position.x= array1[control + segNum*3];
+            cilindro2.position.y=array1[control + 1 + segNum*3];
+            cilindro2.position.z = array1[control + 2 + segNum*3];
             ////////////////////////////////
             for( var i = 0; i < array2.length; i+=3){
                 array2[i] = array1[i + control];
@@ -239,6 +356,8 @@ path {
                 array2[i + 2] = array1[i + control + 2];
             }
             control = control+3;
+            sum= sum+1;
+
             if(control > array1.length-segNum*3)control = 0;
             uniforms2.amplitude.value = 1;
             //uniforms2.color.value.offsetHSL( 0.005, 0, 0 );
@@ -257,6 +376,23 @@ path {
         }
         function updateObject(){
             var time = Date.now() * 0.001;
+            distancia = datosNike.metrics[2].values[sum];
+            distancia=distancia+"";//concatenando, se hace string
+            distancia=distancia.substring(0,4);//asi son 2 decimales
+            document.getElementById("distancia").innerHTML = distancia;
+            
+            
+            velocidad= datosNike.metrics[1].values[sum];
+            velocidad=velocidad+"";//concatenando, se hace string
+            velocidad=velocidad.substring(0,4);//asi son 2 decimales
+            document.getElementById("velocidad").innerHTML = velocidad;
+            
+            
+             if(sum>323){
+                sum=0;
+            }
+            //sum+=1;
+          
             //object.rotation.y = 0.09 * time;
             //object2.rotation.y = 0.09 * time;
             uniforms.amplitude.value = 1;
