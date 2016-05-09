@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style> /* set the CSS */
-body { font: 12px Arial;}
+body { font: 12px Arial; background: #000;}
 #title{
     color:#FFF;
     position: fixed;
@@ -39,7 +39,7 @@ path {
     color:#FFF;
     position: fixed;
     bottom: 12.5%;
-    left: 18.68%;
+    left: 24%;
 }
 #velocidad{
     color:#FFF;
@@ -47,18 +47,7 @@ path {
     bottom: 12.5%;
     left: 8.4%;
 }
-#velocidadTexto{
-    color:#FFF;
-    position: fixed;
-    top: 13%;
-    right: 9%;
-}
-#distanciaTexto{
-    color:#FFF;
-    position: fixed;
-    top: 18%;
-    right: 14%;
-}
+
 #ImagenVel{
     position :fixed;
     bottom:2%;
@@ -67,7 +56,7 @@ path {
 #ImagenDist{
     position :fixed;
     bottom:2%;
-    left:13%;
+    left:18%;
 }
 </style>
 <body>
@@ -431,6 +420,11 @@ path {
             updateObject();
             updateRunner();
             moverCilindro();
+             var timer = Date.now() * 0.0001;
+
+            //camera.position.x = Math.cos( timer ) * 500;
+            //camera.position.y = Math.sin( timer ) * 500 - 200;
+            //camera.lookAt( scene.position );
             renderer.render( scene, camera );
         }
         function moverCilindro(){
